@@ -119,6 +119,7 @@ img {
 .main-nav .logo {
   padding-top: 24px;
   padding-bottom: 25px;
+  а
 }
 
 /* Site-nav and Contacts-header */
@@ -318,14 +319,6 @@ button {
   border-radius: 4px;
 }
 
-.features-item .icon-antenna,
-.features-item .icon-clock,
-.features-item .icon-diagram,
-.features-item .icon-astronaut {
-  width: 70px;
-  height: 70px;
-}
-
 .features-item .title {
   line-height: 1.17;
   text-transform: uppercase;
@@ -428,8 +421,6 @@ button {
 .icon-twitter,
 .icon-facebook,
 .icon-linkedin {
-  width: 20px;
-  height: 20px;
   fill: currentColor;
 }
 
@@ -455,8 +446,6 @@ button {
 }
 
 .logo-client {
-  width: 106px;
-  height: 60px;
   fill: currentColor;
 }
 
@@ -539,8 +528,6 @@ footer .social-list .link:hover,
 footer .social-list .link:focus {
   background-color: var(--accent-color);
 }
-
-
 
 /* Styles for Portfolio */
 
