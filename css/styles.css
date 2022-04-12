@@ -177,7 +177,7 @@ img {
 }
 
 .icon-e-mail,
-.icon-mobile {
+.icon-telefon {
   margin-right: 10px;
   fill: currentColor;
 }
@@ -186,35 +186,27 @@ img {
   margin-left: 50px;
 }
 
-
 /* Hero */
 
 .section.hero {
-  padding-top: 0;
-  padding-bottom: 0;
-  justify-content: center;
-  text-align: center;
-}
-
-.overlay {
   max-width: 1600px;
   height: 600px;
-  padding-top: 200px;
-  padding-bottom: 200px;
-  padding-right: 452px;
-  padding-left: 452px;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 200px 0;
+  margin: 0 auto;
+
   background-color: var(--hero-background-color);
+  text-align: center;
+
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url('../images/studio/hero.jpg');
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .hero-title {
-  margin-bottom: 30px;
+  width: 696px;
+  margin: 0 auto;
 
   color: var(--primary-white-color);
   font-weight: 900;
@@ -236,6 +228,7 @@ button {
 
 .primary-button {
   padding: 10px 32px;
+  margin-top: 30px;
   min-width: 200px;
   box-shadow: var(--primary-button-shadow);
 
@@ -320,6 +313,7 @@ button {
 }
 
 .features-item .title {
+  font-size: 14px;
   line-height: 1.17;
   text-transform: uppercase;
 }
@@ -502,6 +496,7 @@ address {
 
 .container.footer {
   display: flex;
+  align-items: baseline;
 }
 
 /* Присоединяйтесь */
@@ -610,7 +605,7 @@ footer .social-list .link:focus {
   margin-top: var(--card-set-gap);
 }
 
-.card-set .item:hover,
-.card-set .item:focus {
+.card-set .link:hover,
+.card-set .link:focus {
   box-shadow: var(--portfolio-card-shadow);
 }
